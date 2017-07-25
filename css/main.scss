@@ -1,4 +1,4 @@
-﻿    .web-cam { 
+﻿    .portrait { 
 
       /* background-color: blue; */
 
@@ -12,9 +12,13 @@
       display: inline-block;
       top: 5px;
       margin-left: 5px;
-
+      background: black;
     }
 
     video {
     	height: 75px;
+    }
+
+    body {
+      background-color: grey;
     }

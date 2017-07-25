@@ -1,2 +1,2 @@
-.web-cam{width:75px;height:75px;border-radius:75px;position:relative;overflow:hidden;display:inline-block;top:5px;margin-left:5px}video{height:75px}
+.portrait{width:75px;height:75px;border-radius:75px;position:relative;overflow:hidden;display:inline-block;top:5px;margin-left:5px;background:black}video{height:75px}body{background-color:grey}
 /*# sourceMappingURL=main.css.map */
