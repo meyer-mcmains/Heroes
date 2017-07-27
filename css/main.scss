@@ -1,24 +1,30 @@
-﻿    .portrait { 
+﻿.portrait { 
 
-      /* background-color: blue; */
+  //background-color: blue;
 
-      width: 75px;
-      height: 75px;
-      border-radius: 75px;
+  width: 75px;
+  height: 75px;
+  //border-radius: 75px;
+  -webkit-clip-path: polygon(18% 0, 82% 0, 83% 100%, 18% 100%);
+  margin-right: -15px;
 
-      position: relative;
+  position: relative;
 
-      overflow: hidden;
-      display: inline-block;
-      top: 5px;
-      margin-left: 5px;
-      background: black;
-    }
+  overflow: hidden;
+  display: inline-block;
+  top: 5px;
+  margin-left: 5px;
+  background: black;
+}
 
-    video {
-    	height: 75px;
-    }
+video {
+	height: 75px;
+}
 
-    body {
-      background-color: grey;
-    }
+body {
+  background-color: darkgrey;
+}
+
+.heroes {
+  margin-top: 50px;
+}

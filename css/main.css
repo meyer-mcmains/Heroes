@@ -1,2 +1,2 @@
-.portrait{width:75px;height:75px;border-radius:75px;position:relative;overflow:hidden;display:inline-block;top:5px;margin-left:5px;background:black}video{height:75px}body{background-color:grey}
+.portrait{width:75px;height:75px;-webkit-clip-path:polygon(18% 0, 82% 0, 83% 100%, 18% 100%);margin-right:-15px;position:relative;overflow:hidden;display:inline-block;top:5px;margin-left:5px;background:black}video{height:75px}body{background-color:darkgrey}.heroes{margin-top:50px}
 /*# sourceMappingURL=main.css.map */
