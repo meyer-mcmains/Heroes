@@ -1,2 +1,2 @@
-.portrait{width:75px;height:75px;-webkit-clip-path:polygon(18% 0, 82% 0, 83% 100%, 18% 100%);margin-right:-15px;position:relative;overflow:hidden;display:inline-block;top:5px;margin-left:5px;background:black}video{height:75px}body{background-color:darkgrey}.heroes{margin-top:50px}
+.portrait{height:100px;margin:0 auto;-webkit-clip-path:polygon(30% 0, 82% 0, 82% 100%, 30% 100%);margin-right:-45px;max-width:100px;position:relative;display:inline-block;margin-left:5px;background:black;transform-origin:top left}.portrait:hover{cursor:pointer}body{background-color:#2f2f2f}.heroes{margin-top:50px}.vertMid{vertical-align:middle !important}.icon{height:100px}.cont{width:100%;padding-left:5%;padding-right:5%;margin-top:50px}
 /*# sourceMappingURL=main.css.map */
