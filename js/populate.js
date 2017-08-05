@@ -23,6 +23,9 @@ function populate(lines) {
 	  				}
 	  			});
 	  			ctr ++;
+	  			if(ctr%10 === 0 && ctr <= 100) {
+	  				$('.progress-bar').css('width', ctr + '%');
+	  			}
  			});
 	}
 }
@@ -33,10 +36,16 @@ function displayPortrait(attribute) {
 							'</video>');
 }
 
+$(window).load(function() {
+	setTimeout(function(){
+		$('.load').css('display', 'none');
+	}, 2000);
+});
+
 $('.list').on('mouseover', 'video', function() {
 	$(this).get(0).play();
 	$(this).css('-webkit-clip-path', 'none');
-	$(this).css('max-width', 'none');
+	$(this).css('max-width', '106.6');
 	$(this).css('z-index', '1');
 });
 
@@ -46,3 +55,4 @@ $('.list').on('mouseleave', 'video', function() {
 	$(this).css('max-width', '100px');
 	$(this).css('z-index', '0');
 });
+
